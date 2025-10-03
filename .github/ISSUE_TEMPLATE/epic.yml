@@ -2,6 +2,7 @@ name: Epic
 description: "Create a new Epic (large user-facing feature)"
 title: "Epic: <feature name>"
 labels: ["epic"]
+type: "feature"
 body:
   - type: textarea
     id: summary
