@@ -1,0 +1,40 @@
+name: Epic
+description: "Create a new Epic (large user-facing feature)"
+title: "Epic: <feature name>"
+labels: ["epic"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: "Describe the user story: As a <user>, I want <goal> so that <benefit>."
+      placeholder: "As a buyer, I want to place a bid so that I can win an auction."
+    validations:
+      required: true
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: "What's in scope and out of scope for this Epic?"
+      value: |
+        In Scope:
+        - 
+        Out of Scope:
+        - 
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance Criteria
+      description: "List what must be true for this Epic to be considered done."
+      value: |
+        - [ ] Deliverable 1
+        - [ ] Deliverable 2
+
+  - type: textarea
+    id: child-issues
+    attributes:
+      label: Child Issues
+      description: "Link related Story/Task issues from service repos here."
+      placeholder: "- org/service-repo#123"
