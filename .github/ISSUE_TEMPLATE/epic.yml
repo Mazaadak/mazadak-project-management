@@ -13,16 +13,16 @@ body:
     validations:
       required: true
 
-  - type: textarea
-    id: scope
-    attributes:
-      label: Scope
-      description: "What's in scope and out of scope for this Epic?"
-      value: |
-        In Scope:
-        - 
-        Out of Scope:
-        - 
+  # - type: textarea
+  #   id: scope
+  #   attributes:
+  #     label: Scope
+  #     description: "What's in scope and out of scope for this Epic?"
+  #     value: |
+  #       In Scope:
+  #       - 
+  #       Out of Scope:
+  #       - 
 
   - type: textarea
     id: acceptance
