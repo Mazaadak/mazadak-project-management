@@ -22,16 +22,16 @@ body:
   #       In Scope:
   #       - 
   #       Out of Scope:
-  #       - 
+  #       -  
 
-  - type: textarea
-    id: acceptance
-    attributes:
-      label: Acceptance Criteria
-      description: "List what must be true for this Epic to be considered done."
-      value: |
-        - [ ] Deliverable 1
-        - [ ] Deliverable 2
+  # - type: textarea
+  #   id: acceptance
+  #   attributes:
+  #     label: Acceptance Criteria
+  #     description: "List what must be true for this Epic to be considered done."
+  #     value: |
+  #       - [ ] Deliverable 1
+  #       - [ ] Deliverable 2
 
   - type: textarea
     id: child-issues
