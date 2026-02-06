@@ -1,2 +1,2 @@
 # Mazadak-project-management
-Central repository for managing Epics &amp; Docs 
+Central repository for managing Epics &amp; issues
